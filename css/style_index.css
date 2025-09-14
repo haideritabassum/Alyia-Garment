@@ -220,8 +220,12 @@ transition: 2s;
 filter: blur(0px);
 transform: scale(1.2);
 }
-#backgroundimage{
-width: 1300px;
-height: 500px;
-background-image: url();
+#backgroundimage {
+  width: 1300px;
+  height: 500px;
+  background-image: url('your-image.webp'); /* Make sure this path is correct */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block; /* Ensures the element is visible */
 }
